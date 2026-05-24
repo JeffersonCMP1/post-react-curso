@@ -11,7 +11,6 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
   body{
     margin:0;
@@ -19,6 +18,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing:border-box;
     background-color:black;
     font-family:"Poppins", sans-serif;
+    color: #fff;
   }
 
 `;

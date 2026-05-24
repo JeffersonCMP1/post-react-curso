@@ -1,3 +1,11 @@
-export{default as App}from './App';
-export*from './main';
-export*from './styles/GlobalStyles.jsx';
+export * from './App';
+export * from './index copy';
+export * from './main';
+export * from './routes/routes';
+export * from './pages/Home';
+export * from './styles/breakpoints';
+export * from './styles/GlobalStyles';
+export * from './styles/themes';
+export * from './store/ThemeStore';
+export * from './components/templates/HomeTemplate';
+export * from './components/organismos/sidebar/Sidebar';
